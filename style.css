@@ -1,0 +1,159 @@
+body{
+	text-align: center;
+	background-color: lightsalmon;
+}
+
+h1 {
+	color: #800020;
+	font-family: arial, serif;
+	font-size: 30px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+img{
+	width: 150px;
+	border-radius: 20%;
+}
+
+h2{
+	font-family: arial, serif;
+	font-size: 25px;
+	color: #800020;
+}
+p{
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+h3{
+	font-family: arial, serif;
+	font-size: 25px;
+	color: #800020;
+}
+p1{
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+h4{
+	font-family: arial, serif;
+	font-size: 25px;
+	color: #800020;
+}
+bouton{
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+
+p2{
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+h5{
+	font-family: arial, serif;
+	font-size: 25px;
+	color: #800020;
+}
+p3{
+	font-family: Arial, serif;
+	font-size: 15px;
+}
+h6{
+	font-family: arial, serif;
+	font-size: 25px;
+	color: #800020;
+}
+
+.container {
+	width: 700px;
+	margin: 24px auto;
+}
+
+.button{
+	width: 60px;
+	background-color: whitesmoke;
+	border: black;
+}
+
+.button:hover{
+	color: rgb(224, 206, 11, 1.0);
+}
+.btn {
+	display: block;
+	font-family: Arial, serif;
+	font-weight: bold;
+	margin: 16px auto;
+	padding: 15px;
+    width: 100px;
+    display: block;
+    background: powderblue;
+    border-radius: 20px;
+}
+
+.btn:hover{
+	background-color: darkblue;
+}
+.card{
+	background-color: whitesmoke;
+	margin: 40px auto;
+	padding: 40px;
+	border-radius: 2px;
+	border: darkblue;
+	box-shadow: 5px 5px 10px rgba(2, 6, 18, 1.0);     
+}
+
+
+.link-list {
+            list-style: none;
+            padding: 10;
+            display: flex;
+    		justify-content: space-around;
+    		font-family: 'Roboto', sans-serif;
+    		font-weight: bold;
+
+
+        }
+
+        .link-list li {
+            margin-right: 30px;
+        }
+
+        .button {
+            text-decoration: none;
+            color: #511f29;
+            font-size: 30px;
+        }
+
+         .link-list {
+	            list-style: none;
+	            padding: 3;
+	        }
+
+	        .link-list li {
+	            display: inline-block;
+	            margin-right: 10px; 
+	        }
+
+	        .link-list li:last-child {
+	            margin-right: 0; 
+	        }
+
+@media(max-width: 960px){
+	.container{
+		width: 500px;
+	}
+}
+@media(max-width: 540px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media(max-width: 320px){
+	.container{
+		width: 200px;
+	}
+}
